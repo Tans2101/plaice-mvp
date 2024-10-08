@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell AI Tools - Plaice</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #2C3E50;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 a {
+            color: white;
+            font-size: 30px;
+            text-decoration: none;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Seller Section */
+        .seller {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .seller h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #2C3E50;
+        }
+        .seller form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .seller label {
+            font-size: 18px;
+            display: block;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+        .seller input, .seller textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .seller button {
+            background-color: #3498DB;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .seller button:hover {
+            background-color: #2980B9;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2C3E50;
+
+color: white; text-align: center; padding: 20px 0; } footer ul { list-style: none; padding: 0; } footer ul li { display: inline; margin-right: 15px; } footer ul li a { color: white; text-decoration: none; } </style>
+
+</head> <body>
+php
+Copy code
+<!-- Header -->
+<header class="header">
+    <div class="container">
+        <h1 class="logo"><a href="index.html">Plaice</a></h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="marketplace.html">Marketplace</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Seller Form Section -->
+<section class="seller">
+    <div class="container">
+        <h2>Sell Your AI Tools</h2>
+        <form action="#" method="post">
+            <label for="title">Tool Name:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+
+            <label for="image">Upload Image:</label>
+            <input type="file" id="image" name="image" accept="image/*">
+
+            <button type="submit">Submit Listing</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="marketplace.html">Marketplace</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p>&copy; 2024 Plaice. All Rights Reserved.</p>
+    </div>
+</footer>
+</body> </html>

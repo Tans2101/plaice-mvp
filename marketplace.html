@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace - Plaice</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #2C3E50;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 a {
+            color: white;
+            font-size: 30px;
+            text-decoration: none;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Marketplace Section */
+        .marketplace {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .marketplace h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #2C3E50;
+        }
+        .listing-grid {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .listing {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+        }
+        .listing img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        .listing h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .listing p {
+            font-size: 18px;
+            color: #3498DB;
+            margin-bottom: 20px;
+        }
+        .listing a {
+            display: inline-block;
+            background-color: #3498DB;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .listing a:hover {
+            background-color: #2980B9;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2C3E50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+        footer ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">Plaice</a></h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="seller.html">Sell AI Tools</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Marketplace Listings -->
+    <section class="marketplace">
+        <div class="container">
+            <h2>Browse AI Tools</h2>
+
+            <div class="listing-grid">
+                <div class="listing">
+                    <img src="images/tool1.jpg" alt="AI Tool 1">
+                    <h3>Machine Learning Model</h3>
+                    <p>$500</p>
+                    <a href="#">Buy Now</a>
+                </div>
+                <div class="listing">
+                    <img src="images/tool2.jpg" alt="AI Tool 2">
+                    <h3>Data Automation Tool</h3>
+                    <p>$350</p>
+                    <a href="#">Buy Now</a>
+                </div>
+                <div class="listing">
+                    <img src="images/tool3.jpg" alt="AI Tool 3">
+                    <h3>AI Chatbot Framework</h3>
+                    <p>$750</p>
+                    <a href="#">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="seller.html">Sell AI Tools</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p>&copy; 2024 Plaice. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
